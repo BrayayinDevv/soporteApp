@@ -1,0 +1,32 @@
+/* ---------- App.css ---------- */
+.create-request-container { text-align: center; margin-bottom: 20px; }
+.form-title { font-size: 20px; color: white; margin-bottom: 15px; }
+.request-form { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.request-form input, .request-form textarea { width: 60%; max-width: 400px; padding: 8px; border: 1px solid #ccc; border-radius: 6px; }
+.submit-btn { width: 60%; max-width: 400px; padding: 8px; background: #e63946; color: white; border: none; border-radius: 6px; cursor: pointer; }
+.submit-btn:hover { background: #c72c38; }
+.header-container { display: flex; flex-direction: column; align-items: center; margin-top: 60px; margin-bottom: 20px; }
+.header-container h1 { font-size: 25px; color: white; }
+.logout-btn { display: block; margin: 0 auto 2px; padding: 8px 16px; background: #e63946; color: #fff; border: none; border-radius: 0; cursor: pointer; font-size: 14px; }
+
+/* Tabla admin compacta */
+.table-container { background: grey; border: 2px solid #000; border-radius: 8px; padding: 8px; max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.table-viewport { max-height: 68vh; overflow-y: auto; overflow-x: auto; }
+.admin-table { border-collapse: collapse; width: 100%; min-width: 900px; font-family: Arial, sans-serif; background: #fff; }
+.admin-table thead th { position: sticky; top: 0; z-index: 2; background: #f3f3f3; border-bottom: 2px solid #000; }
+.admin-table th, .admin-table td { border: 1px solid #000; padding: 4px 6px; font-size: 12px; line-height: 1.25; vertical-align: top; word-break: break-word; }
+.admin-table tbody tr:nth-child(even) { background: #fafafa; }
+.admin-table tbody tr:hover { background: gray; }
+.admin-table th:nth-child(1), .admin-table td:nth-child(1) { width: 50px; }
+.admin-table th:nth-child(2), .admin-table td:nth-child(2) { width: 120px; }
+.admin-table th:nth-child(3), .admin-table td:nth-child(3) { width: 180px; }
+.admin-table th:nth-child(4), .admin-table td:nth-child(4) { width: 160px; }
+.admin-table th:nth-child(5), .admin-table td:nth-child(5) { width: 260px; }
+.admin-table th:nth-child(6), .admin-table td:nth-child(6) { width: 140px; }
+.admin-table th:nth-child(7), .admin-table td:nth-child(7) { width: 100px; }
+.admin-table th:nth-child(8), .admin-table td:nth-child(8) { width: 240px; }
+.admin-table th:nth-child(9), .admin-table td:nth-child(9) { width: 140px; }
+.pill-btn { display: inline-block; padding: 6px 10px; border-radius: 12px; font-size: 12px; border: none; cursor: pointer; }
+.pill-btn.primary { background: #e63946; color: #fff; }
+.pill-btn.soft { background: #f3f3f3; color: #333; }
+.pill-btn:disabled { opacity: .6; cursor: not-allowed; }
