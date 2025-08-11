@@ -30,8 +30,8 @@ Base de datos: PostgreSQL.
 
 1️⃣ Clonar el repositorio
 
-git clone https://github.com/tu-usuario/soporteapp.git
-cd soporteapp
+git clone https://github.com/tu-usuario/soporteApp.git
+cd soporteApp
 
 2️⃣ Configurar el backend
 
@@ -43,7 +43,7 @@ En el archivo .env configurar:
 
 PORT=4000
 DATABASE_URL=postgresql://usuario:password@localhost:5432/soporteapp
-JWT_SECRET=tu_clave_secreta
+JWT_SECRET=
 
 3️⃣ Configurar el frontend
 
@@ -69,23 +69,17 @@ cd frontend
 npm run dev
 
 📷 Capturas de pantalla
+<img width="1365" height="636" alt="image" src="https://github.com/user-attachments/assets/43a3e187-2882-49f0-a05d-1e5d247d120f" />
 
-(Agregar imágenes de login, panel usuario y panel admin)
 
 🚀 Posibles mejoras
-
 Implementar autenticación con JWT.
-
 Filtrado y búsqueda avanzada en el panel admin.
-
 Integración con IA para sugerir respuestas.
-
 Sistema de roles más granular.
 
 📅 Entrega
-
 Fecha límite: Lunes 11 de agosto de 2025.
 
 👨‍💻 Autor
-
 Brayan Velandia
