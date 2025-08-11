@@ -38,9 +38,13 @@ npm install
 cp .env.example .env
 
 En el archivo .env configurar:
-
 VITE_API_BASE=http://localhost:4000
 VITE_RECAPTCHA_KEY="6LdeEqMrAAAAABl6HPgd3a76vuM1RjouEvtQ8dws"
+
+IMPORTANTE
+se crea un archivo en la ruta "soporteapp/backEnd/bd" la cual se deja en ejemplo de la base de datos en PostgreSQL, como deberia ser creada.
+<img width="1135" height="438" alt="image" src="https://github.com/user-attachments/assets/1c10ef36-10e7-4b5c-8142-01236b5b329f" />
+
 
 4️⃣ Ejecutar la aplicación
 En dos terminales separadas:
